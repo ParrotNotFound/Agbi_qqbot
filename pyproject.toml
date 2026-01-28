@@ -1,0 +1,14 @@
+[project]
+name = "agbi"
+version = "0.1.0"
+description = "agbi"
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "QQ", module_name = "nonebot.adapters.qq" }
+]
+plugins = []
+plugin_dirs = ["plugins"]
+builtin_plugins = ["echo"]
